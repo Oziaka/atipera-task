@@ -71,7 +71,6 @@ GET .../api/users/{userName}/repositories
       }
     ]
   },
-  ...
 ]
 ```
 <h1>Failure response:</h1>
