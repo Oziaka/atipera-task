@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "9cdbf3d1-61b9-4876-832c-0fa1bfe2879d",
+		"name": "atipera",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7380098"
+	},
+	"item": [
+		{
+			"name": "USER",
+			"item": []
+		},
+		{
+			"name": "Get repositories",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/users/:userName/repositories",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						":userName",
+						"repositories"
+					],
+					"variable": [
+						{
+							"key": "userName",
+							"value": "Oziaka"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
